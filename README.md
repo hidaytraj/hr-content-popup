@@ -1,6 +1,7 @@
 ## Welcome to GitHub Pages
 
-You can use the [editor on GitHub](https://github.com/hidaytrahman/hr-content-popup/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+## Advance Responsive Content in Wordpress, jQuery popup 
+with lot of options 
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
