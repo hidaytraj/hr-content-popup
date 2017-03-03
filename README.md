@@ -1,6 +1,6 @@
 ## Welcome to GitHub Pages
 
-## Advance Responsive Content in Wordpress, jQuery popup 
+### Advance Responsive Content in Wordpress, jQuery popup 
 with lot of options 
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
