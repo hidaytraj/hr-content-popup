@@ -14,9 +14,9 @@
 
 ##### Dependecies Files
 ```javascript
-<link rel="stylesheet" href="css/hrContentPopup.css">
+<link rel="stylesheet" href="css/hrContentPopup.min.css">
 <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
-<script src="js/hrContenPopup.js"></script>
+<script src="js/hrContentPopup.min.js"></script>
 ```
 
 ##### Embed this script

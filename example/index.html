@@ -1,116 +1,64 @@
 <!doctype html>
 <html>
+
 <head>
-<meta charset="utf-8">
-<title>HR Content Responsive Popup Plugin | Hidayt Rahman</title>
-<meta name="keywords" content="hr popup,content,popup,responsive content popup, responsive popup, jquery, hidayt rahman, md hidaytullah rahmani">
-<meta name="desciption" content="Advance Responsive Content Popup in jQuery With Lot of options Its free to use ">
-<meta name="author" content="Md Hidaytullah Rahmani">
-<link rel="stylesheet" href="css/hr_simple_popup.css">
-<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
-<script src="js/hr_simple_popup.js"></script>
-<script>
-$(document).ready(function(){
-	//Call hrSimple Wrapper with parent div or body
-	$(".wrapper").hrContent_popup({
-		event : "click", // mouseover, click
-		popCloseAnywhere : false,
-		popupButton : ".popupButton",
-		buttonType : "sign" //sign , close
-	});
-});
-
-</script>
-
-<style>
-* {
-	margin: 0;
-	font-family: arial;
-	line-height: 21px;
-}
-
-.content {
-	width: 30%;
-	float: left;
-	margin: 1%;
-	box-shadow: 0px 0px 6px gray;
-	padding: 2%;
-	box-sizing: border-box;
-	text-align: justify;
-	line-height: 21px;
-}
-
-a {
-	text-decoration: none;
-	color: orange;
-	font-weight: bold
-}
-
-a:after {
-	content: "[+]";
-	display: inline-block;
-}
-
-
-h2 {
-	background: #EAEAEA;
-	padding: 5px;
-	font-size: 18px;
-	font-weight: 500;
-	text-align: left;
-	margin-bottom: 5px;
-}
-
-.data-starts {
-	max-height: 108px;
-	min-height: 100px;
-	overflow: hidden;
-}
-</style>
+    <meta charset="utf-8">
+    <title>HR Content Responsive Popup Model | Hidayt Rahman</title>
+    <meta name="keywords" content="hr popup,content,popup,responsive content popup, responsive popup, jquery, hidayt rahman, md hidaytullah rahmani">
+    <meta name="desciption" content="HR Content Responsive Popup Model, Advance Responsive Content Popup in jQuery With lots of options It's free to use!">
+    <meta name="author" content="Md Hidaytullah Rahmani">
+    <link rel="stylesheet" href="css/hrContentPopup.min.css">
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="js/hrContentPopup.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $(".wrapper").hrContentPopup({
+                event: "click", // mouseover, click
+                popCloseAnywhere: false,
+                popupButton: ".popupButton",
+                buttonType: "sign" //sign , close
+            });
+        });
+    </script>
 </head>
+
 <body>
-<div class="intro-hidayt">
-	<h1> HR Content Responsive Popup </h1>
-	<h3 class="about_plugin">
+    <div class="intro-hidayt">
+        <h1> HR Content Responsive Popup </h1>
+        <h3 class="about_plugin">
 		Advance Responsive Content Popup in jQuery <br />
 		With Lot of options <br />
 		<i>Its free to use</i> <br >
-		<code>
-			Add any jquery <kbd>jquery.1.11.3.min.js</kbd> in head <br>
-			than add <kbd>hr_simple_popup.js</kbd> 
-			add css <kbd>hr_simple_popup.css</kbd>
-		</code>
+		
 	</h3>
-</div>
+    </div>
 
-<div class="wrapper hr-popup">
-	<div class="content">
-		<h2>This is first box</h2>
-		<div class="data-starts">
-			<p> Lorem ipsum dolor sit amet, per liber debet efficiantur ut. Ut detraxit menandri qui, per an paulo dignissim, duo eu percipit convenire. Elaboraret referrentur ut ius, aliquip democritum sit in. Duo ad dico nibh bonorum, has primis admodum alienum ex. Ad deserunt invenire nec, et error commodo delicatissimi ius.
-			Lorem ipsum dolor sit amet, per liber debet efficiantur ut. Ut detraxit menandri qui, per an paulo dignissim, duo eu percipit convenire. Elaboraret referrentur ut ius, aliquip democritum sit in. Duo ad dico nibh bonorum, has primis admodum alienum ex. Ad deserunt invenire nec, et error commodo delicatissimi ius.
-			Lorem ipsum dolor sit amet, per liber debet efficiantur ut. Ut detraxit menandri qui, per an paulo dignissim, duo eu percipit convenire. Elaboraret referrentur ut ius, aliquip democritum sit in. Duo ad dico nibh bonorum, has primis admodum alienum ex. Ad deserunt invenire nec, et error commodo delicatissimi ius.
-			Lorem ipsum dolor sit amet, per liber debet efficiantur ut. Ut detraxit menandri qui, per an paulo dignissim, duo eu percipit convenire. Elaboraret referrentur ut ius, aliquip democritum sit in. Duo ad dico nibh bonorum, has primis admodum alienum ex. Ad deserunt invenire nec, et error commodo delicatissimi ius.
-			</p>
-		</div>
-		<a href="#" class="button popupButton">Read More </a>
-	</div>
-	<div class="content">
-		<h2>I am another content</h2>
-		<div class="data-starts">
-			<p> Lorem ipsum dolor sit amet, per liber debet efficiantur ut. Ut detraxit menandri qui, per an paulo dignissim, duo eu percipit convenire. Elaboraret referrentur ut ius, aliquip democritum sit in. Duo ad dico nibh bonorum, has primis admodum alienum ex. Ad deserunt invenire nec, et error commodo delicatissimi ius.</p>			
-		</div>
-		<a href="#" class="button popupButton">Read More </a>
-	</div>
+    <div class="wrapper hr-popup">
+        <div class="content">
+            <h2>This is first box</h2>
+            <div class="data-starts">
+                <p> Lorem ipsum dolor sit amet, per liber debet efficiantur ut. Ut detraxit menandri qui, per an paulo dignissim, duo eu percipit convenire. Elaboraret referrentur ut ius, aliquip democritum sit in. Duo ad dico nibh bonorum, has primis admodum alienum ex. Ad deserunt invenire nec, et error commodo delicatissimi ius. Lorem ipsum dolor sit amet, per liber debet efficiantur ut. Ut detraxit menandri qui, per an paulo dignissim, duo eu percipit convenire. Elaboraret referrentur ut ius, aliquip democritum sit in. Duo ad dico nibh bonorum, has primis admodum alienum ex. Ad deserunt invenire nec, et error commodo delicatissimi ius. Lorem ipsum dolor sit amet, per liber debet efficiantur ut. Ut detraxit menandri qui, per an paulo dignissim, duo eu percipit convenire. Elaboraret referrentur ut ius, aliquip democritum sit in. Duo ad dico nibh bonorum, has primis admodum alienum ex. Ad deserunt invenire nec, et error commodo delicatissimi ius. Lorem ipsum dolor sit amet, per liber debet efficiantur ut. Ut detraxit menandri qui, per an paulo dignissim, duo eu percipit convenire. Elaboraret referrentur ut ius, aliquip democritum sit in. Duo ad dico nibh bonorum, has primis admodum alienum ex. Ad deserunt invenire nec, et error commodo delicatissimi ius.
+                </p>
+            </div>
+            <a href="#" class="button popupButton">Read More </a>
+        </div>
+        <div class="content">
+            <h2>I am another content</h2>
+            <div class="data-starts">
+                <p> Lorem ipsum dolor sit amet, per liber debet efficiantur ut. Ut detraxit menandri qui, per an paulo dignissim, duo eu percipit convenire. Elaboraret referrentur ut ius, aliquip democritum sit in. Duo ad dico nibh bonorum, has primis admodum alienum ex. Ad deserunt invenire nec, et error commodo delicatissimi ius.</p>
+            </div>
+            <a href="#" class="button popupButton">Read More </a>
+        </div>
 
-	<div class="content">
-		<h2>Obvious we are different to each other</h2>
-		<div class="data-starts">
-			<p> Lorem ipsum dolor sit amet, per liber debet efficiantur ut. Ut detraxit menandri qui</p>
-		</div>
-		<a href="#" class="button popupButton">Read More </a>
-	</div>
-</div>
-<!-- Wrapper end here -->
+        <div class="content">
+            <h2>Obvious we are different to each other</h2>
+            <div class="data-starts">
+                <p> Lorem ipsum dolor sit amet, per liber debet efficiantur ut. Ut detraxit menandri qui</p>
+            </div>
+            <a href="#" class="button popupButton">Read More </a>
+        </div>
+    </div>
+    <!-- Wrapper end here -->
 </body>
+
 </html>
