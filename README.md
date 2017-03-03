@@ -12,7 +12,7 @@
 
 ### How to use
 
-#### Dependecies Files
+##### Dependecies Files
 ```javascript
 <link rel="stylesheet" href="css/hrContentPopup.css">
 <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
