@@ -2,17 +2,18 @@
 
 #### Advance Responsive Content in jQuery popup with easy customizable in any project.
 
-Free to use
-
 * All major browsers compatible
 * Lightweight js only (2 kb)
 * Free to use
 * Customizable
 
+### [Live Demo](https://hidaytrahman.github.io/hr-content-popup/)
+----
+
 ### How to use
 
 #### Dependecies Files
-```markdown
+```javascript
 <link rel="stylesheet" href="css/hrContentPopup.css">
 <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
 <script src="js/hrContenPopup.js"></script>
@@ -29,8 +30,6 @@ $(".wrapper").hrContentPopup({
 	});
 </script>
 ```
-
-[Live Demo](https://hidaytrahman.github.io/hr-content-popup/)
 
 ### Support or Contact
 
