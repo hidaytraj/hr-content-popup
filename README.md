@@ -7,7 +7,7 @@
 * Free to use
 * Customizable
 
-### [Live Demo](https://hidaytrahman.github.io/hr-content-popup/)
+### [Live Demo](https://hidaytrahman.github.io/hr-content-popup/example/)
 ----
 
 ### How to use
