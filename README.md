@@ -1,38 +1,37 @@
-## Welcome to GitHub Pages
+## HR Content Responsive Popup Model
 
-### Advance Responsive Content in Wordpress, jQuery popup 
-with lot of options 
+#### Advance Responsive Content in jQuery popup with easy customizable in any project.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Free to use
 
-### Markdown
+* All major browsers compatible
+* Lightweight js only (2 kb)
+* Free to use
+* Customizable
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### How to use
 
+#### Dependecies Files
 ```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+<link rel="stylesheet" href="css/hrContentPopup.css">
+<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+<script src="js/hrContenPopup.js"></script>
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+##### Embed this script
+```javascript
+<script>
+$(".wrapper").hrContentPopup({
+		event : "click", // mouseover, click
+		popCloseAnywhere : false,
+		popupButton : ".popupButton",
+		buttonType : "sign" //sign , close
+	});
+</script>
+```
 
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/hidaytrahman/hr-content-popup/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+[Live Demo](https://hidaytrahman.github.io/hr-content-popup/)
 
 ### Support or Contact
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Mail at [hidaytrahman@gmail.com](mailto:hidaytrahman@gmail.com) and we’ll help you sort it out.
